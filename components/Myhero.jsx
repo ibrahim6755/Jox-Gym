@@ -20,7 +20,7 @@ const Myhero = () => {
             <span className="text-orange-600">Take</span> your dream{" "}
             <span className="text-orange-600">physique</span> to reality
           </h1>
-          <p className="text-xl font-semibold text-gray-300 max-w-md">
+          <p className="md:text-xl font-semibold text-gray-300 max-w-md">
             Unlock your full potential with expert guidance and world-class
             training equipment. Start your transformation journey today.
           </p>
