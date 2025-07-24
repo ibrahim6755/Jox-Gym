@@ -3,13 +3,13 @@ import Image from "next/image";
 const Myhero = () => {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat text-white py-32 px-6 md:px-16"
-      style={{
-        backgroundImage: `url('/images/hero2.jpeg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+      className="relative bg-no-repeat text-white py-32 px-6 md:px-16 
+             bg-[url('/images/mobile-hero.jpg')] 
+             md:bg-[url('/images/hero2.jpeg')] 
+             bg-cover bg-center"
     >
+      {/* Your content here */}
+
       {/* Smoke Overlay */}
       <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px] z-0"></div>
 
