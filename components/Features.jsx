@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Dumbbell, Settings2, Sparkles } from "lucide-react";
+import Image from "next/image";
 
 export function Features() {
   return (
@@ -17,51 +18,78 @@ export function Features() {
         </div>
 
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-12 *:text-center md:mt-16">
-          <Card className="group bg-black border-none rounded-lg transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Dumbbell className="size-6" aria-hidden />
-              </CardDecorator>
-              <h3 className="mt-6 font-extrabold leading-tight text-orange-600 text-lg">
+          <Card className="group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
+            {/* Full-size top image */}
+            <div className="w-full h-48 relative">
+              <Image
+                src="/images/motivation.png"
+                alt="Motivation"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
+
+            {/* Card Text Content */}
+            <CardHeader className="pb-3 pt-6 text-center">
+              <h3 className="mt-2 font-extrabold leading-tight text-orange-600 text-lg">
                 Elite Training Programs
               </h3>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-white">
+              <p className="text-sm text-white text-center">
                 From strength training to HIIT, our certified trainers and
                 curated plans are tailored to your fitness level and goals.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group bg-black border-none rounded-lg transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Dumbbell className="size-6" aria-hidden />
-              </CardDecorator>
-              <h3 className="mt-6 font-extrabold leading-tight text-orange-600 text-lg">
+          <Card className="group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
+            {/* Full-size top image */}
+            <div className="w-full h-48 relative">
+              <Image
+                src="/images/motivation.png"
+                alt="Motivation"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
+
+            {/* Card Text Content */}
+            <CardHeader className="pb-3 pt-6 text-center">
+              <h3 className="mt-2 font-extrabold leading-tight text-orange-600 text-lg">
                 Elite Training Programs
               </h3>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-white">
+              <p className="text-sm text-white text-center">
                 From strength training to HIIT, our certified trainers and
                 curated plans are tailored to your fitness level and goals.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group bg-black border-none rounded-lg transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
-            <CardHeader className="pb-3">
-              <CardDecorator>
-                <Dumbbell className="size-6" aria-hidden />
-              </CardDecorator>
-              <h3 className="mt-6 font-extrabold leading-tight text-orange-600 text-lg">
+          <Card className="group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]">
+            {/* Full-size top image */}
+            <div className="w-full h-48 relative">
+              <Image
+                src="/images/motivation.png"
+                alt="Motivation"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg"
+              />
+            </div>
+
+            {/* Card Text Content */}
+            <CardHeader className="pb-3 pt-6 text-center">
+              <h3 className="mt-2 font-extrabold leading-tight text-orange-600 text-lg">
                 Elite Training Programs
               </h3>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-white">
+              <p className="text-sm text-white text-center">
                 From strength training to HIIT, our certified trainers and
                 curated plans are tailored to your fitness level and goals.
               </p>

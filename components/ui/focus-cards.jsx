@@ -11,7 +11,7 @@ const Card = ({ card, index, hovered, setHovered }) => {
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
       className={cn(
-        "relative rounded-lg bg-gray-100 dark:bg-neutral-900 overflow-hidden h-72 w-full transition-all duration-300 ease-out flex items-center justify-center",
+        "relative  dark:bg-neutral-900 h-72 w-full ease-out flex items-center justify-center group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]",
         hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
       )}
     >
@@ -43,7 +43,7 @@ const FocusCards = ({ cards }) => {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:max-w-5xl mx-auto md:px-8 md:w-full">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:max-w-5xl mx-auto md:px-8 md:w-full ">
       {cards.map((card, index) => (
         <Card
           key={card.title}
