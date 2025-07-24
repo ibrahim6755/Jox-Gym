@@ -11,7 +11,7 @@ const Card = ({ card, index, hovered, setHovered }) => {
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
       className={cn(
-        "relative  dark:bg-neutral-900 h-72 w-full ease-out flex items-center justify-center group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)]",
+        "relative  dark:bg-neutral-900 h-72 md:w-full ease-out flex items-center justify-center group bg-black border-none rounded-lg overflow-hidden transition duration-300 hover:scale-[1.02] shadow-[0_0_10px_4px_rgba(255,102,0,0.5)] m-8 md:0",
         hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
       )}
     >

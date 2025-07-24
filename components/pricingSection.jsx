@@ -38,7 +38,7 @@ function PricingSection({ tiers, className }) {
     >
       <div className="w-full max-w-5xl mx-auto">
         <div className="flex flex-col items-center gap-4 mb-12">
-          <h2 className="text-3xl font-bold text-orange-600">
+          <h2 className="text-3xl font-bold text-orange-600 text-center">
             Simple, transparent pricing
           </h2>
           <div className="inline-flex items-center p-1.5 bg-zinc-900 rounded-full border border-zinc-800 shadow-sm">

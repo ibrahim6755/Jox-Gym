@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Features() {
   return (
-    <section className="py-16 md:py-32 dark:bg-transparent">
+    <section className="py-24 md:py-32 dark:bg-transparent">
       <div className="@container mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl  lg:text-5xl font-extrabold leading-tight">
